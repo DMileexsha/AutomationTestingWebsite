@@ -19,7 +19,7 @@ This repository contains a robust Behavior-Driven Development (BDD) framework de
 * Reporting: Cucumber HTML Reports / Extent Reports
 
 ## 📁 Project Structure
-![project-structure](src/project-structure.png)
+![Project-Structure](./src/assets/project-structure.png)
 
 ## 🚀 Key Features
 * Data-Driven Testing: Utilizing Cucumber Examples to test multiple data sets.

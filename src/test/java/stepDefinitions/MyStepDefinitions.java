@@ -15,7 +15,8 @@ public class MyStepDefinitions {
 
     @Given("I am on the landing page")
     public void i_am_on_the_landing_page() {
-            Assert.assertTrue(driver.getTitle().contains("Automation Exercise"));
+
+        Assert.assertTrue(driver.getTitle().contains("Automation Exercise"));
     }
 
     @Then("user clicks the login button")
@@ -25,13 +26,13 @@ public class MyStepDefinitions {
     }
     @Then("user enters email and password")
     public void user_enters_email_and_password() {
-        ecommercePages.enterEmail("its.eliza328@gmail.com");
-        ecommercePages.enterPassword("eliza2002");
+        ecommercePages.enterEmail("pererakh328@gmail.com");
+        ecommercePages.enterPassword("khdmp2002");
 
     }
     @Then("user clicks login")
     public void user_clicks_login() {
-        ecommercePages.clickLoginButton();
+        ecommercePages.clickLoginInLoginPage();
 
     }
     @Then("validates if login is success")
@@ -59,7 +60,7 @@ public class MyStepDefinitions {
     }
     @Then("user performs validation on product description page")
     public void user_performs_validation_on_product_description_page() {
-        ecommercePages.performValidationOnProductPage();
+        ecommercePages.performValidationOnPdp();
 
     }
     @Then("user clicks on add to cart")
